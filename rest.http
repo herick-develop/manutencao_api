@@ -3,7 +3,7 @@ content-type: application/json
 
 {
     "email": "hericklucas.hlf@gmail.com",
-    "password": "herick12354"
+    "password": "admin"
 }
 ###
 
