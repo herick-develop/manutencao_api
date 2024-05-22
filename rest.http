@@ -1,0 +1,18 @@
+POST http://localhost:3000/integrator/login/ HTTP/1.1
+content-type: application/json
+
+{
+    "email": "hericklucas.hlf@gmail.com",
+    "password": "herick12354"
+}
+###
+
+POST http://localhost:3000/support/deleteCall HTTP/1.1
+content-type: application/json
+
+{
+    "id": 1025
+}
+###
+
+GET http://localhost:3000/support/listCall/3 HTTP/1.1
