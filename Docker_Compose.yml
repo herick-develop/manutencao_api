@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+
+  api:
+    image: manutencao_api
+    networks:
+      - manutencao
+    ports:
+      - "3000:3000"
+    deploy:
+      replicas: 1
+
+networks:
+  manutencao:
+    external: true
